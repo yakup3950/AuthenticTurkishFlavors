@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkish Flavors</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <button onclick="switchLanguage('en')">English</button>
+    <button onclick="switchLanguage('de')">Deutsch</button>
+
+    <hr>
+          
+    <div class="lang lang-en">
+        <header>
+            <center>
+                <p class="MainTitle"><strong>Authentic Turkish Flavors</strong></p>
+            </center>
+        </header>  
+    </div>
+    
+    <div class="lang lang-de">
+        <header>
+            <center>
+                <p class="MainTitle"><strong>Authentische Türkische Aromen</strong></p>
+            </center>
+        </header>
+    </div>
+        
+    <center> 
+
+        <div class="lang lang-en">
+            <div class="orta" style="display: flex; align-items: center;">
+                <img width=30px height=30px src="used_pics/AyyildizSag.jpg" alt="Tulip foto positioned left">
+                <img width=70px height=70px src="used_pics/TulipLeft.jpg" alt="Tulip foto positioned left">
+                <img width=120px height=120px src="used_pics/TulipLeft.jpg" alt="Tulip foto positioned left">
+                <img width=170px height=170px src="used_pics/TulipLeft.jpg" alt="Tulip foto positioned left">
+                <p class="slogan"><strong>Your guide to tasty dishes</strong></p>
+                <img width=150px height=150px src="used_pics/TulipRight.jpg" alt="Tulip foto positioned right">
+                <img width=100px height=100px src="used_pics/TulipRight.jpg" alt="Tulip foto positioned right">
+                <img width=50px height=50px src="used_pics/TulipRight.jpg" alt="Tulip foto positioned right">
+                <img width=30px height=30px src="used_pics/ayyildizSol.jpg" alt="Tulip foto positioned right">
+            </div>  
+        </div>         
+
+        <div class="lang lang-de">
+            <div class="orta" style="display: flex; align-items: center;">
+                <img width=30px height=30px src="used_pics/AyyildizSag.jpg" alt="Tulip foto positioned left">
+                <img width=70px height=70px src="used_pics/TulipLeft.jpg" alt="Tulip foto positioned left">
+                <img width=120px height=120px src="used_pics/TulipLeft.jpg" alt="Tulip foto positioned left">
+                <img width=170px height=170px src="used_pics/TulipLeft.jpg" alt="Tulip foto positioned left">
+                <p class="slogan"><strong>Ihr Leitfaden für köstliche Gerichte</strong></p>
+                <img width=150px height=150px src="used_pics/TulipRight.jpg" alt="Tulip foto positioned right">
+                <img width=100px height=100px src="used_pics/TulipRight.jpg" alt="Tulip foto positioned right">
+                <img width=50px height=50px src="used_pics/TulipRight.jpg" alt="Tulip foto positioned right">
+                <img width=30px height=30px src="used_pics/ayyildizSol.jpg" alt="Tulip foto positioned right">
+            </div>
+        </div>
+            
+        <div class="lang lang-en">
+            <p class="intro"><strong>"Discover the rich flavors of authentic cuisine with our carefully crafted recipes
+            and local delights."</strong></p>
+        </div>
+        <div class="lang lang-de">
+            <p class="intro"><strong>"Entdecken Sie die reichen Aromen der authentischen Küche mit unseren sorgfältig
+            zusammengestellten Rezepten und regionalen Spezialitäten."</strong></p>
+        </div>  
+      
+        <br>
+
+        <div class="parlayan_resim">
+            <a href="http://127.0.0.1:5500/flavors.html"> <img class="drink" src="used_pics/drinks2.png" alt="Turkish Drinks"> </a>           
+            <a href="http://127.0.0.1:5500/flavors.html"> <img class="desert" src="used_pics/Tatlilar.png" alt="Turkish Deserts">
+            <a href="http://127.0.0.1:5500/flavors.html"> <img class="meal" src="used_pics/TurkishMeal.png" alt="Turkish Meals"></a>                       
+        </div> 
+
+    </center>  
+ 
+    <nav>
+        <!-- Hier kommt eine Liste mit allen Rezept Typen. -->
+    </nav>
+
+    <div class="lang lang-en">    
+        <section class="container">
+            <header>
+                <center>
+                    <h1>Let's discover new tastes together...</h1>
+                </center>
+            </header>
+        </section>
+
+        <footer>
+            <center>
+                <p>&copy; <strong>2025 All rights reserved.</strong></p>
+            </center>
+        </footer>
+    </div>
+
+    <div class="lang lang-de">
+        <section class="container">
+            <header>
+                <center>
+                    <h1>Lassen Sie uns gemeinsam neue Geschmäcker entdecken...</h1>
+                </center>
+            </header>
+        </section>
+    
+        <footer>
+            <center>
+                <p>&copy; <strong>2025 Alle Rechte vorbehalten.</strong></p>
+            </center>
+        </footer>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            // Tüm dil bloklarını gizle
+            document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+
+            // Seçilen dil bloğunu göster
+            document.querySelectorAll('.lang-' + lang).forEach(el => el.style.display = 'block');
+        }
+
+        // Varsayılan dil
+        switchLanguage('en');
+    </script>
+
+</body>
+
+</html>

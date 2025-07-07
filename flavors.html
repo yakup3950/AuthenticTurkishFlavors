@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkish Flavors</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="navigasyon">
+        <a href="http://127.0.0.1:5500/index.html"> <img class="homepage" src="quisine_pics/Homepage.png" alt="Homepage"></a> 
+        <a href="http://127.0.0.1:5500/contact.html"> <img class="Contact" src="quisine_pics/contact.png" alt="Homepage"></a>
+    </div>
+
+    <hr>
+
+    <header>
+        <center>
+            <p class="maintitle_Homepage"><strong>Turkish Flavors</strong></p>
+        </center>
+    </header>
+
+    <style>
+        .buton-kapsayici {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
+    
+        .hover-resim {
+            display: none;
+            position: absolute;
+            top: 120%;
+            /* Butonun hemen altına */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 200px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            background-color: white;
+            z-index: 99;
+            gap: 100px;
+        }
+    
+        .buton-kapsayici:hover .hover-resim {
+            display: block;
+        }
+    </style>
+    
+    <div class="buton-kapsayici">
+        <button
+            style="padding: 20px 40px; background-color: rgb(150, 31, 10); color: white; border: none; border-radius: 5px; font-size: 20px;"
+            onclick="window.location.href='MainCourse.html'">        
+            <strong>Main Course</strong>
+        </button>
+        <img src="quisine_pics/maincourse.jpeg" alt="Kebap" class="hover-resim">
+    </div>
+    
+    <div class="buton-kapsayici">
+        <button style="padding: 20px 40px; background-color: rgb(32, 32, 119); color: white; border: none; border-radius: 5px; font-size: 20px;"
+            onclick="window.location.href='Deserts.html'">            
+            <strong>Deserts</strong>
+        </button>
+        <img src="quisine_pics/Deserts.jpg" alt="Desserts" class="hover-resim">
+    </div>
+    
+    <div class="buton-kapsayici">
+        <button
+            style="padding: 20px 40px; background-color: rgb(122, 194, 6); color: white; border: none; border-radius: 5px; font-size: 20px;"
+            onclick="window.location.href='Drinks.html'">        
+            <strong>Drinks</strong>
+        </button>
+        <img src="quisine_pics/drinks.jpg" alt="Drinks" class="hover-resim">
+    </div>
+    
+
+    <div
+        style="position: fixed; left:37%; top:270px; width: 3px; height: 580px; background: linear-gradient(to bottom, rgb(10, 10, 10), rgb(233, 3, 3));">
+    </div> 
+    
+</body>
+
+</html>

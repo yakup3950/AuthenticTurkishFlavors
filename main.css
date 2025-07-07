@@ -1,0 +1,132 @@
+
+
+
+h1 {
+    background-color: cadetblue;
+    font-size: 55 px;  
+    padding: 0 px;
+}
+
+p{
+    font-style: italic;
+}
+
+.orta {
+    font-size: 45;
+    margin: 5;
+    height: 25vh;
+    display: flex;
+    justify-content: center; /* Yatay ortalama */
+    align-items: center;   /* Dikey ortalama */
+    gap: 30px;
+}
+
+.intro{
+    font-size: 30px;
+}
+
+.parlayan_resim{
+    box-shadow: 0 0 20px 5px rgb(0, 80, 0);
+    background-color: rgb(145, 206, 186);
+    gap: 20px;    
+}
+
+.meal{
+    width: 440px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 2px 3px rgb(57, 59, 57);
+    margin-bottom: 10px;
+}
+
+.drink {
+    width: 440px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 2px 3px rgb(57, 59, 57);
+    margin-bottom: 10px;
+}
+
+.MainTitle{
+    font-size: 60px; 
+    background-color: rgb(99, 224, 183); 
+    text-shadow: 2px 3px rgb(204, 206, 209)
+}
+
+.desert{
+    width: 440px;
+    height: 300px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px rgb(57, 59, 57);
+}
+
+.slogan{
+    font-size: 40px;
+    color: rgb(172, 9, 9);     
+}
+
+.container{
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+
+.maintitle_Homepage{
+    font-size: 60px;
+    background-color: rgb(250, 2, 2);
+    color: rgb(255, 255, 255);
+}
+
+.homepage{
+    width: 85px;
+    height: 85px;
+}
+
+.navigasyon{
+    justify-content: center;
+}
+
+.Contact{
+    width: 75px;
+    height: 75px;
+}
+    
+.Contact2{
+    
+    font-size: 60px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+
+}
+
+.address{
+    width: 200px;
+    height: 180px;
+}
+
+.e_mail{
+    width: 200px;
+    height: 180px;
+}
+.e_mail2 {
+    width: 200px;
+        height: 180px;
+
+}
+
+.webaddress {
+    width: 200px;
+        height: 180px;
+
+}
+
+.telephone {
+
+    width: 200px;
+        height: 180px;
+
+}
